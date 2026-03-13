@@ -28,3 +28,17 @@ html[lang="en"] .footer-photos-right {
   direction: ltr;
   text-align: center;
 }
+
+/* Reset push/pull so text is visible; RTL grid was hiding pushed columns on LTR */
+@media (min-width: 768px) {
+  html[lang="en"] .col-sm-push-8,
+  html[lang="en"] .col-sm-push-7 {
+    left: auto;
+    right: auto;
+  }
+  html[lang="en"] .col-sm-pull-4,
+  html[lang="en"] .col-sm-pull-5 {
+    left: auto;
+    right: auto;
+  }
+}
