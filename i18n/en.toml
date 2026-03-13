@@ -1,0 +1,50 @@
+[menuLabel]
+other = "Site menu"
+
+[navHome]
+other = "Home"
+
+[navProducts]
+other = "Products"
+
+[navWorkshops]
+other = "Workshops"
+
+[navAboutUs]
+other = "About Us"
+
+[navContact]
+other = "Contact"
+
+[footerSlogan]
+other = "Play for Everyone"
+
+[footerCopyright]
+other = "All rights reserved for Darkooba. © 2015"
+
+[metaOgTitle]
+other = "Darkooba Toy Design Group"
+
+[metaAuthor]
+other = "Darkooba Toy Design Group"
+
+[metaDescription]
+other = "Play for everyone. We bring dreams to life with wood and try to make our handmade creations a source of joy, play, creativity, and self-belief."
+
+[homePageTitle]
+other = "Darkooba: Toy Design and Making"
+
+[homePromoProducts]
+other = "Products"
+
+[homePromoDasht]
+other = "Landscape"
+
+[homePromoWorkshops]
+other = "Workshops"
+
+[homePromoAboutUs]
+other = "About Us"
+
+[homePhotoCredit]
+other = "Photos"

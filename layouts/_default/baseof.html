@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="{{ .Site.Language.Lang }}" dir="{{ .Site.Params.direction }}">
 <head>
   {{ partial "head.html" . }}
   <title>{{ block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>

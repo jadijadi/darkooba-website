@@ -1,6 +1,24 @@
 baseURL = 'https://darkooba.com/'
-languageCode = 'fa-ir'
-title = 'دارکوبا'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+[languages.en]
+  title = 'Darkooba'
+  languageName = 'English'
+  languageCode = 'en-us'
+  weight = 1
+  contentDir = 'content/en'
+  [languages.en.params]
+    direction = 'ltr'
+
+[languages.fa]
+  title = 'دارکوبا'
+  languageName = 'فارسی'
+  languageCode = 'fa-ir'
+  weight = 2
+  contentDir = 'content/fa'
+  [languages.fa.params]
+    direction = 'rtl'
 
 [markup]
   [markup.goldmark]

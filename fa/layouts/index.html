@@ -1,0 +1,48 @@
+{{ define "title" }}دارکوبا: طراحی و ساخت اسباب بازی{{ end }}
+
+{{ define "main" }}
+<div class="home-header">
+  {{ partial "nav.html" . }}
+
+  <div class="js-home-header-slide home-header-slide" dir="ltr">
+    <div><a href="{{ "/calendar/" | relURL }}"><div class="cover-img-white-bg cover-img-content-1"></div></a></div>
+    <div><a href="{{ "/dasht/" | relURL }}"><div class="cover-img-white-bg cover-img-content-2"></div></a></div>
+    <div><a href="{{ "/kajdar/" | relURL }}"><div class="cover-img-white-bg cover-img-content-3"></div></a></div>
+    <div><a href="{{ "/bahambesazim/" | relURL }}"><div class="cover-img cover-img-content-4"></div></a></div>
+  </div>
+</div>
+
+<div class="container-fluid promotion">
+  <div class="row">
+    <a class="promo-link" href="{{ "/products/" | relURL }}">
+      <div class="col-sm-3 u-fit">
+        <div class="promo-text"><p>محصولات</p></div>
+        <img src="{{ "images/a11.jpg" | relURL }}">
+      </div>
+    </a>
+
+    <a class="promo-link" href="{{ "/dasht/" | relURL }}">
+      <div class="col-sm-3 u-fit">
+        <div class="promo-text"><p>دشت</p></div>
+        <img src="{{ "images/l11.jpg" | relURL }}">
+      </div>
+    </a>
+
+    <a class="promo-link" href="{{ "/workshops/" | relURL }}">
+      <div class="col-sm-3 u-fit">
+        <div class="promo-text light"><p>کارگاه‌ها</p></div>
+        <img src="{{ "images/w1.jpg" | relURL }}">
+      </div>
+    </a>
+
+    <a class="promo-link" href="{{ "/about-us/" | relURL }}">
+      <div class="col-sm-3 u-fit">
+        <div class="promo-text"><p>درباره ما</p></div>
+        <img src="{{ "images/u11.jpg" | relURL }}">
+      </div>
+    </a>
+  </div>
+</div>
+
+<p class="footer-photos-right">عکس: <a href="http://Likostudio.com">Likostudio</a></p>
+{{ end }}

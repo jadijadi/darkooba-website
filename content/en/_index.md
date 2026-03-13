@@ -1,0 +1,5 @@
+---
+title: "Darkooba"
+aliases:
+  - /home/
+---
