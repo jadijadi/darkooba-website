@@ -1,0 +1,7 @@
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db

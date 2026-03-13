@@ -1,0 +1,8 @@
+baseURL = 'https://darkooba.com/'
+languageCode = 'fa-ir'
+title = 'دارکوبا'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
