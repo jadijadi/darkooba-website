@@ -7,17 +7,17 @@
 <meta name="author" content="{{ i18n "metaAuthor" }}">
 <meta name="description" content="{{ i18n "metaDescription" }}">
 
-<link rel="icon" type="image/png" href="{{ "images/favicon.png" | relURL }}">
-<link rel="stylesheet" type="text/css" href="{{ "css/darkooba-style.css" | relURL }}">
-<link rel="stylesheet" type="text/css" href="{{ "css/language-switcher.css" | relURL }}">
+<link rel="icon" type="image/png" href="{{ "images/favicon.png" | absURL }}">
+<link rel="stylesheet" type="text/css" href="{{ "css/darkooba-style.css" | absURL }}">
+<link rel="stylesheet" type="text/css" href="{{ "css/language-switcher.css" | absURL }}">
 {{ if eq .Site.Language.Lang "en" }}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="{{ "css/english-ltr.css" | relURL }}">
+<link rel="stylesheet" type="text/css" href="{{ "css/english-ltr.css" | absURL }}">
 {{ end }}
 {{ if .IsHome }}
-<link rel="stylesheet" type="text/css" href="{{ "css/home-dist.css" | relURL }}">
+<link rel="stylesheet" type="text/css" href="{{ "css/home-dist.css" | absURL }}">
 {{ end }}
 
 <!--[if lt IE 9]>
