@@ -11,6 +11,9 @@
 <link rel="stylesheet" type="text/css" href="{{ "css/darkooba-style.css" | relURL }}">
 <link rel="stylesheet" type="text/css" href="{{ "css/language-switcher.css" | relURL }}">
 {{ if eq .Site.Language.Lang "en" }}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="{{ "css/english-ltr.css" | relURL }}">
 {{ end }}
 {{ if .IsHome }}

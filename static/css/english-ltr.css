@@ -1,3 +1,11 @@
+html[lang="en"] {
+  font-size: 12px;
+}
+
+html[lang="en"] body {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
 html[lang="en"] body,
 html[lang="en"] .features-side-text,
 html[lang="en"] .features-side-text p,
@@ -19,6 +27,61 @@ html[lang="en"] .features-side-text ol {
 html[lang="en"] .product-name-cnt {
   right: auto;
   left: 0;
+}
+
+/* Contact page typography and layout */
+html[lang="en"] .contact-info {
+  padding: 1.5rem 0;
+  max-width: 36em;
+}
+
+html[lang="en"] .contact-intro {
+  font-size: 1.1rem;
+  line-height: 1.65;
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+html[lang="en"] .contact-method {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+html[lang="en"] .contact-method:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+html[lang="en"] .contact-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #666;
+  margin: 0 0 0.35rem 0;
+}
+
+html[lang="en"] .contact-value {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+html[lang="en"] .contact-value a {
+  color: #2c5282;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+html[lang="en"] .contact-value a:hover {
+  text-decoration: underline;
+}
+
+html[lang="en"] .contact-note {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 0.25rem 0 0 0;
 }
 
 html[lang="en"] .footer,
