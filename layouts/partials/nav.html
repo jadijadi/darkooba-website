@@ -1,4 +1,12 @@
 <nav class="navbar navbar-default navbar-fixed-top">
+  {{ $targetLang := cond (eq .Site.Language.Lang "fa") "en" "fa" }}
+  {{ $scratch := newScratch }}
+  {{ $scratch.Set "switchURL" (cond (eq $targetLang "fa") "/fa/" "/") }}
+  {{ range .AllTranslations }}
+    {{ if eq .Lang $targetLang }}
+      {{ $scratch.Set "switchURL" .RelPermalink }}
+    {{ end }}
+  {{ end }}
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse">
@@ -8,6 +16,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="{{ "/" | relLangURL }}"><img src="{{ "images/darkooba-logo.png" | relURL }}"></a>
+      <a class="btn btn-default navbar-btn navbar-lang-btn" href="{{ $scratch.Get "switchURL" }}" title="{{ i18n "languageSwitchTitle" }}">{{ i18n "languageSwitchText" }}</a>
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar-collapse">

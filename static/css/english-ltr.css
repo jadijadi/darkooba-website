@@ -1,0 +1,30 @@
+html[lang="en"] body,
+html[lang="en"] .features-side-text,
+html[lang="en"] .features-side-text p,
+html[lang="en"] .features-side-text li,
+html[lang="en"] .product-intro-text p,
+html[lang="en"] .contact-info p,
+html[lang="en"] .product-name-cnt,
+html[lang="en"] .promo-text {
+  direction: ltr;
+  text-align: left;
+}
+
+html[lang="en"] .features-side-text ul,
+html[lang="en"] .features-side-text ol {
+  padding-left: 20px;
+  padding-right: 0;
+}
+
+html[lang="en"] .product-name-cnt {
+  right: auto;
+  left: 0;
+}
+
+html[lang="en"] .footer,
+html[lang="en"] .footer p,
+html[lang="en"] .footer-social-link,
+html[lang="en"] .footer-photos-right {
+  direction: ltr;
+  text-align: center;
+}

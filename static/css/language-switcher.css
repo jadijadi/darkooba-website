@@ -1,0 +1,26 @@
+.navbar-lang-btn {
+  float: left;
+  margin: 12px 15px 8px 0;
+  min-width: 0;
+  padding: 4px 10px;
+  font-size: 12px;
+  line-height: 1.2;
+  border-radius: 0;
+}
+
+html[dir="ltr"] .navbar-lang-btn {
+  float: right;
+  margin: 12px 0 8px 15px;
+}
+
+@media (max-width: 767px) {
+  .navbar-lang-btn {
+    padding: 3px 8px;
+    font-size: 11px;
+    margin-right: 10px;
+  }
+
+  html[dir="ltr"] .navbar-lang-btn {
+    margin-left: 10px;
+  }
+}

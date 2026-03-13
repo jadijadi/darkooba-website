@@ -9,6 +9,10 @@
 
 <link rel="icon" type="image/png" href="{{ "images/favicon.png" | relURL }}">
 <link rel="stylesheet" type="text/css" href="{{ "css/darkooba-style.css" | relURL }}">
+<link rel="stylesheet" type="text/css" href="{{ "css/language-switcher.css" | relURL }}">
+{{ if eq .Site.Language.Lang "en" }}
+<link rel="stylesheet" type="text/css" href="{{ "css/english-ltr.css" | relURL }}">
+{{ end }}
 {{ if .IsHome }}
 <link rel="stylesheet" type="text/css" href="{{ "css/home-dist.css" | relURL }}">
 {{ end }}

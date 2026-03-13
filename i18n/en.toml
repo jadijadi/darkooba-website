@@ -20,7 +20,7 @@ other = "Contact"
 other = "Play for Everyone"
 
 [footerCopyright]
-other = "All rights reserved for Darkooba. © 2015"
+other = "All rights reserved for Darkooba. © 2015-2026"
 
 [metaOgTitle]
 other = "Darkooba Toy Design Group"
@@ -48,3 +48,9 @@ other = "About Us"
 
 [homePhotoCredit]
 other = "Photos"
+
+[languageSwitchText]
+other = "فارسی"
+
+[languageSwitchTitle]
+other = "Switch to Persian"

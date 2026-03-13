@@ -72,6 +72,6 @@ title: "با هم بسازیم"
 <a target="_blank" href="https://www.facebook.com/pages/Dar-koob-%D8%AF%D8%A7%D8%B1%DA%A9%D9%88%D8%A8/282654831859004?fref=ts"><span class="icon-facebook-square"></span></a>
 <a target="_blank" href="https://instagram.com/darkooba/"><span class="icon-camera-retro"></span></a>
 </div>
-<p class="text-muted">تمامی حقوق برای دارکوبا محفوظ است. © ۱۳۹۴</p>
+<p class="text-muted">تمامی حقوق برای دارکوبا محفوظ است. © ۱۳۹۴-۱۴۰۴</p>
 </div>
 </footer>

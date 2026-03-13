@@ -20,7 +20,7 @@ other = "تماس با ما"
 other = "بازی برای همه"
 
 [footerCopyright]
-other = "تمامی حقوق برای دارکوبا محفوظ است. © ۱۳۹۴"
+other = "تمامی حقوق برای دارکوبا محفوظ است. © ۱۳۹۴-۱۴۰۴"
 
 [metaOgTitle]
 other = "گروه طراحی اسباب بازی دارکوبا"
@@ -48,3 +48,9 @@ other = "درباره ما"
 
 [homePhotoCredit]
 other = "عکس"
+
+[languageSwitchText]
+other = "English"
+
+[languageSwitchTitle]
+other = "تغییر زبان به انگلیسی"
