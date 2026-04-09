@@ -10,6 +10,9 @@ other = "Products"
 [navWorkshops]
 other = "Workshops"
 
+[navBlog]
+other = "Blog"
+
 [navAboutUs]
 other = "About Us"
 
